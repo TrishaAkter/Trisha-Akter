@@ -41,7 +41,13 @@ section {
     background-color: orange;
 }
 
-.section {
+. flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+
+}
+
+.flexible-container1 {
     display: flex;
     margin-bottom: 150px;
 }
@@ -69,4 +75,45 @@ section {
 
 .red {
     color: rgb(240, 15, 15);
+}
+
+.orange {
+    color: orange;
+}
+
+.half1 {
+
+    box-shadow: 10px 10px 40px rgb(102, 103, 101);
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+
+    padding: 5%;
+    border-radius: 10px;
+
+
+}
+
+.experience-area {
+    display: flex;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#full-stack-developer {
+    border-left: 12px solid tomato;
+
+}
+
+#baby-wed-developer {
+    border-left: 12px solid blue;
+
+}
+
+footer p {
+    text-align: center;
 }
